@@ -101,6 +101,13 @@
     --font-body: 'Segoe UI', system-ui, -apple-system, sans-serif;
   }
 
+  .email-link {
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    display: inline-block;
+    max-width: 100%;
+}
+  
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
   html { scroll-behavior: smooth; }
@@ -713,7 +720,8 @@
         <div class="contact-icon">✉️</div>
         <div>
           <h3>Email Us</h3>
-          <a href="mailto:oliverbennettie@gmail.com">oliverbennettie@gmail.com</a>
+<a class="email-link" href="mailto:oliverbennettie@gmail.com">
+    oliverbennettie@gmail.com </a>       
         </div>
       </div>
       <div class="contact-item">
