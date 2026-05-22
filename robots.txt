@@ -1,0 +1,28 @@
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Block unnecessary crawling
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Disallow: /*?*
+Disallow: /*.json$
+
+# Allow important assets
+Allow: /*.css$
+Allow: /*.js$
+Allow: /*.png$
+Allow: /*.jpg$
+Allow: /*.jpeg$
+Allow: /*.webp$
+Allow: /*.svg$
+
+# Crawl optimization
+Crawl-delay: 2
+
+# Sitemap
+Sitemap: https://oliverbennettie-bit.github.io/Guest-posting-site/sitemap.xml
+
+# Preferred Host
+Host: oliverbennettie-bit.github.io
